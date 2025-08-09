@@ -1,0 +1,9 @@
+model,cv_best_rmse,val_rmse,val_mae,val_r2,best_params
+HistGradientBoosting,1470.7305616397784,1577.6510929064211,992.2699314750648,0.8617260179378666,"{'model__regressor__max_depth': 8, 'model__regressor__max_bins': 255, 'model__regressor__learning_rate': np.float64(0.11364636663857249), 'model__regressor__l2_regularization': np.float64(0.001)}"
+RandomForest,1606.3247296331238,1676.5907411305354,1063.3797573239065,0.8438389675516115,"{'model__regressor__n_estimators': 800, 'model__regressor__min_samples_split': 2, 'model__regressor__min_samples_leaf': 1, 'model__regressor__max_depth': 30}"
+ElasticNet,1513.344023901725,1749.3379861077462,1117.5876021647975,0.8299933153160366,"{'model__regressor__l1_ratio': np.float64(0.75), 'model__regressor__alpha': np.float64(0.0004375479375074184)}"
+Lasso,1512.1856445095118,1755.5249452071012,1125.2484173311261,0.8287886488313532,{'model__regressor__alpha': np.float64(0.00047639380104013405)}
+Ridge,1524.7900682362988,1762.114078084572,1119.2138469266963,0.8275009980938426,{'model__regressor__alpha': np.float64(4.714866363457395)}
+LinearRegression,,2009.1218235612318,1243.0683279146447,0.7757507047302666,{}
+SVR,3896.420651691645,4104.496712753186,2728.977467540777,0.06408077342550178,"{'model__regressor__gamma': np.float64(0.0019306977288832496), 'model__regressor__epsilon': np.float64(0.019306977288832496), 'model__regressor__C': np.float64(432.87612810830615)}"
+FINAL_TEST_HistGradientBoosting,,1620.1306010571343,979.079783584256,0.8502657310087033,{}
